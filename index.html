@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Banner -->
+    <div class="b-image" id="top">
+      <div class="b-text">
+        Hello, I'm <span class="name">Sourav Roy Chowdhury</span>. And I'm a
+        Computer Science student.
+      </div>
+    </div>
+    <!-- End of Banner -->
+    <!-- Navigation Bar -->
+    <ul>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#about">About</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- End of Navigation Bar -->
+    <!-- About section -->
+    <div>
+      <h1 id="about">About</h1>
+      <img src="./images/me.jpg" alt="" />
+
+      <p>
+        I’m a 1st year computer science student currently studying at ICAS,
+        Manipal. This portfolio is my very first project as a beginner in web
+        development. I have serious passion for UI design and hope to learn more
+        as I delve deeper into the subject.
+      </p>
+    </div>
+    <!-- End of About -->
+    <!-- Contact -->
+    <div>
+      <h1 id="contact">Contact</h1>
+      <form action="mailto:rc.souravroychowdhury@gmail.com" method="POST">
+        <input type="text" name="name" id="name" placeholder="Name" />
+        <br />
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+        <br />
+        <textarea
+          name="des"
+          id="des"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <br />
+        <input
+          class="send"
+          type="submit"
+          value="SEND"
+          style="text-align: center;
+    max-width: 80px;
+    font-weight: 200;
+    font-family: ariel; cursor: pointer;"
+        />
+      </form>
+      <br />
+    </div>
+    <!-- End of Contact -->
+    <!-- footer -->
+    <footer>
+      <a href="#top">^</a>
+    </footer>
+    <!-- End of Footer -->
+  </body>
+</html>
