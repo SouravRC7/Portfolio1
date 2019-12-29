@@ -29,36 +29,36 @@ h1 {
 }
 .b-text {
   text-align: center;
-  line-height: 3.5vw;
+  line-height: 3.6vw;
   font-size: 3.2vw;
   position: absolute;
   color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Calibri";
+  font-family: "Gill Sans MT", Calibri;
 }
 .name {
   color: palevioletred;
   display: inline-block;
 }
-ul {
-  list-style-type: none;
-  background-color: slategrey;
-  overflow: hidden;
+.nav ul {
+  list-style: none;
+  background: rgb(140, 159, 179);
 }
-li {
-  float: centre;
+.nav li {
+  display: inline-block;
 }
-li a {
-  display: block;
-  color: white;
-  text-align: center;
+.nav a {
   text-decoration: none;
-  padding: 5px;
-  font-size: 2.5vw;
+  color: rgb(37, 41, 52);
+  width: 120px;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans MT";
 }
-li a:hover {
+.nav a:hover {
   background-color: rgb(44, 52, 71);
   color: palevioletred;
 }
@@ -75,13 +75,13 @@ img {
 p {
   margin: 9vw;
   font-size: 2.5vw;
+  font-family: "Gill Sans MT";
   font-weight: 100;
-  color: rgb(92, 91, 91);
+  color: rgb(120, 133, 145);
 }
 input {
   text-align: left;
-  width: 450px;
-  /* max-width: 500px; */
+  width: 400px;
   padding: 10px 20px;
   margin-bottom: 3px;
   box-sizing: border-box;
@@ -90,8 +90,7 @@ input {
 }
 textarea {
   text-align: left;
-  width: 450px;
-  /* max-width: 500px; */
+  width: 400px;
   padding: 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
