@@ -29,14 +29,15 @@ h1 {
 }
 .b-text {
   text-align: center;
-  line-height: 3.6vw;
-  font-size: 3.2vw;
-  position: absolute;
+  line-height: 4vw;
+  font-size: 3.8vw;
+  position: relative;
   color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Gill Sans MT", Calibri;
+  padding: 15vw;
 }
 .name {
   color: palevioletred;
@@ -79,9 +80,10 @@ p {
   font-weight: 100;
   color: slategray;
 }
-input {
+input,
+textarea {
   text-align: left;
-  width: 400px;
+  width: 600px;
   padding: 10px 20px;
   margin-bottom: 3px;
   box-sizing: border-box;
@@ -89,13 +91,7 @@ input {
   border-radius: 5px;
 }
 textarea {
-  text-align: left;
-  width: 400px;
-  padding: 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
-  border: 3px solid lightgray;
-  border-radius: 5px;
 }
 footer {
   display: block;
@@ -113,4 +109,17 @@ footer i {
 }
 footer i:hover {
   color: rgb(156, 175, 196);
+}
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 3.5vw;
+  }
+  .nav a {
+    font-size: 15px;
+    width: 100px;
+  }
+  input,
+  textarea {
+    width: 400px;
+  }
 }
